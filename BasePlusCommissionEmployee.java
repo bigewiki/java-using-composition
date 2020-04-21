@@ -67,6 +67,7 @@ public class BasePlusCommissionEmployee {
    // return String representation of BasePlusCommissionEmployee
    @Override
    public String toString() {
-      return String.format("%s %s%n%s: %.2f", "base-salaried", super.toString(), "base salary", getBaseSalary());
+      return String.format("%s %s%n%s: %.2f", "base-salaried", CommissionEmployee.toString(), "base salary",
+            getBaseSalary());
    }
 }
